@@ -2,6 +2,14 @@
 
 music.youtube.com için hafif, native bir Mac uygulaması (Swift + WKWebView).
 
+## İndir
+[Son sürümü indir](https://github.com/easafb/ytmusic-mac/releases/latest) → zip'i aç, **YT Music.app**'i Programlar
+klasörüne sürükle. Uygulama Apple onaylı olmadığı için ilk açılıştan önce Terminal'de:
+```bash
+xattr -dr com.apple.quarantine "/Applications/YT Music.app"
+```
+macOS 13+ · Apple Silicon ve Intel
+
 ## Özellikler
 - Google hesabınla giriş (oturum kalıcı; Premium reklamsız çalışır)
 - Klavye medya tuşları ve Kontrol Merkezi'nde "Şimdi Çalınıyor"
